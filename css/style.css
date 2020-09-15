@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px;
+    background: rgb(88, 88, 88);
+}
+
+.header img{
+    height: 55px;
+}
+
+.menu ul{
+    display:flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*end header*/
+
+.box_imagen{
+    border:1px solid red;
+    background-image: url(../img/fondo1.jpg);
+    height: 500px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido1 h1{
+    border: 1px solid blue;
+    display: flex;
+    
+}
+
+
+.form1 button{
+
+}
