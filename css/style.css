@@ -209,3 +209,60 @@ font-family: 'Josefin Sans', sans-serif;
 
 /*FIN AVISO*/
 
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background: rgb(25, 25, 25);
+}
+
+.footer h4{
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer p{
+    font-size: 13px;
+}
+
+.marvel{
+justify-self: center;
+align-self: stretch;
+color: white;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.support{
+align-self: center;
+font-family: 'Source Sans Pro', sans-serif;
+color: white;
+}
+.contact{
+align-self: stretch;
+color: white;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*FIN FOOTER*/
+
+.card{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background: rgb(25, 25, 25);
+    color: white;
+}
+.card p{
+    font-family: 'Roboto', sans-serif;
+}
+.card p span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 12px;
+}
+.card img{
+    height: 80px;
+    border-radius: 40px;
+    padding-right: 10px;
+    justify-self: end;
+}
+
+/*FIN CARD*/
