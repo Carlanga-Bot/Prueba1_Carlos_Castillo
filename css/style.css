@@ -31,15 +31,25 @@ body{
 /*end header*/
 
 .box_imagen{
-    background-image: url(../img/fondo1.jpg);
+    position: relative;
+    display: inline-block ;
+    text-align: center;
     width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+}
+
+.box_imagen img{
+    width: 100%;
+    height: 100%;
 }
 
 .contenido1 h1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
     text-align: center;
     margin-top: 100px;
     padding: 50px 70px 20px 70px;
@@ -48,6 +58,9 @@ body{
 
 
 .form1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +82,6 @@ font-family: 'Josefin Sans', sans-serif;
 .box_medio{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border: 1px solid black;
     text-align: center;
@@ -82,9 +94,48 @@ font-family: 'Josefin Sans', sans-serif;
 }
 .box_medio p{
     color: white;
-    width: 60%;
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    margin-bottom: 60px;
+    margin: 10px 60px 60px 60px;
+}
+
+/*END BOX_MEDIO*/
+
+.box_bajo{
+    position: relative;
+    display: inline-block ;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_bajo img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido3{
+    background: gray;
+}
+.contenido3 h1{
+    border: 2px solid red;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    padding: 50px 70px 20px 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contenido3 p{
+    border:2px solid pink;
+    position: absolute;
+    top: 50%;
+    
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
