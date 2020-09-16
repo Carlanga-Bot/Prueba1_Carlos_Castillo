@@ -104,20 +104,17 @@ font-family: 'Josefin Sans', sans-serif;
 /*END BOX_MEDIO*/
 
 .box_bajo{
+    background: gray;
     position: relative;
     display: inline-block ;
     text-align: center;
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.box_bajo img{
-    width: 100%;
-    height: 100%;
-}
 
 .contenido3{
     height: 100%;
@@ -125,7 +122,7 @@ font-family: 'Josefin Sans', sans-serif;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(78, 78, 78));
-    background: rgba(8, 8, 8, 0.493);
+    background: rgba(8, 8, 8, 0.5);
 }
 .contenido3 h1{
     color: rgb(170, 170, 170);
@@ -143,7 +140,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .heroes{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 100px;
     position: absolute;
     margin: 210px 90px 0px 90px;
@@ -285,4 +282,86 @@ font-family: 'Source Sans Pro', sans-serif;
 
 @media screen and (min-width: 768px){
     
+    .box_bajo{
+        position: relative;
+        display: inline-block ;
+        text-align: center;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box_bajo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .contenido3{
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgb(78, 78, 78));
+        background: rgba(8, 8, 8, 0.493);
+    }
+    .contenido3 h1{
+        color: rgb(170, 170, 170);
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 30px 90px 30px 90px;
+    }
+    .contenido3 p{
+        padding: 10px;
+        border-radius: 10px;
+        background: rgba(170, 170, 170, 0.199);
+        margin: 0px 90px 60px 90px;
+        color: rgb(253, 253, 253);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .heroes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 100px;
+        position: absolute;
+        margin: 210px 90px 0px 90px;
+    }
+    
+    .heroe1{
+        background: rgba(25, 25, 25, 0.74);
+        border-radius: 5px;
+        color:white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+        
+    }
+    .heroe1 img{
+        border-radius: 60px;
+        height: 120px;
+    }
+    
+    .heroe2{
+        background: rgba(25, 25, 25, 0.74);
+        border-radius: 5px;
+        color:white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+    }
+    .heroe2 img{
+        border-radius: 60px;
+        height: 120px;
+    }
+    
+    .heroe3{
+        background: rgba(25, 25, 25, 0.74);
+        border-radius: 5px;
+        color:white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+    }
+    .heroe3 img{
+        border-radius: 60px;
+        height: 120px;
+    }
 }
